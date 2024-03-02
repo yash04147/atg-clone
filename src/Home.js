@@ -278,20 +278,20 @@ const Home = () => {
                 style={{ color: "black" }}
                 class="nav-link active"
                 aria-current="page"
-                href="#"
+                href="/"
               >
                 All Posts(32)
               </a>
-              <a style={{ color: "#8A8A8A" }} class="nav-link" href="#">
+              <a style={{ color: "#8A8A8A" }} class="nav-link" href="/">
                 Article
               </a>
-              <a style={{ color: "#8A8A8A" }} class="nav-link" href="#">
+              <a style={{ color: "#8A8A8A" }} class="nav-link" href="/">
                 Event
               </a>
-              <a style={{ color: "#8A8A8A" }} class="nav-link" href="#">
+              <a style={{ color: "#8A8A8A" }} class="nav-link" href="/">
                 Education
               </a>
-              <a style={{ color: "#8A8A8A" }} class="nav-link" href="#">
+              <a style={{ color: "#8A8A8A" }} class="nav-link" href="/">
                 Job
               </a>
             </div>
@@ -1202,8 +1202,8 @@ const Home = () => {
               <br />
               <br />
               <h6>
-                <img style={{ marginTop: "-5px" }} src={likeicon} /> RECOMMENDED
-                GROUPS
+                <img style={{ marginTop: "-5px" }} src={likeicon} alt="img" />{" "}
+                RECOMMENDED GROUPS
               </h6>
               {follow_groups.map((group) => (
                 <>
@@ -1922,7 +1922,7 @@ const Home = () => {
       </div>
       {!breaking_point_desktop && (
         <a
-          href="#"
+          href="/"
           style={{ position: "fixed", right: "10px", bottom: "10px" }}
         >
           <img style={{ cursor: "pointer" }} alt="float" src={float} />
